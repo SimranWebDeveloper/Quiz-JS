@@ -30,9 +30,9 @@ Quiz.prototype.guess=function(answer){
     }this.questionIndex++;
 }
 
-var q1=new Question("What's the best programng language?",['java','c#','javascript','python'],'javascript');
-var q2=new Question("What isn't  programng language?",['c++','c','word','javascript'],'javascript');
-var q3=new Question("What's the new  programng language?",['javascript','c#','css','sql'],'javascript');
+var q1=new Question("What is the most popular JavaScript?",['typescript','react','vue','Ember.js'],'react');
+var q2=new Question("What isn't  programing language?",['c','css','c#','javascript'],'css');
+var q3=new Question("What is the most popular programming language?",['javascript','java','css','c#'],'javascript');
 
 console.log(q1.checkanswer('javascript'));
 
